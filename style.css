@@ -1,0 +1,42 @@
+div {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  margin: 6px;
+}
+
+.pixel {
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+}
+
+.lines {
+  display: block;
+}
+
+#pixel-board {
+  border: 1px black solid;
+  display: inline-block;
+  margin: 2% 0%;
+}
+
+#clear-board:hover, #generate-board:hover {
+  background-color: darkgrey;
+}
+#clear-board {
+  margin: 10px;
+}
+
+#board-size {
+  display: inline-block;
+  margin: 1%;
+  width: 10%;
+  color: rgb(red, green, blue);
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+}

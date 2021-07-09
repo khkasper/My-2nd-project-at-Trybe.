@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Projeto Pixels Art</title>
+</head>
+<body>
+    <h1 id='title'>Paleta de Cores</h1>
+    <section id="color-palette">
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+    </section>
+    <section id="button-input-container">
+      <p>Para resetar as cores do quadro, clique no botão "Limpar"</p>
+      <button id="clear-board">Limpar</button>
+      <p>Altere o tamanho do quadro, adicionando um valor e clicando no botão "VQV":</p>
+      <input id="board-size" type="number" min="1" max="50">
+      <button id="generate-board">VQV</button>
+    </section>
+    <section>
+      <table id="pixel-board"></table>
+    </section>
+  <script src="script.js"></script>
+</body>
+</html>
