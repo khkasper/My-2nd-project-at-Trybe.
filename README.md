@@ -1,7 +1,6 @@
-## Habilidades
+# Habilidades
 
 - Manipular o DOM
-
 - Manipular o Javascript
 
 ## Requisitos do projeto
