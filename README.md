@@ -3,7 +3,9 @@
 - Manipular o DOM
 - Manipular o Javascript
 
-## Requisitos do projeto
+# Requisitos do projeto
+
+## Obrigatórios
 
 - [x] 1 - Adicione à página o título "Paleta de Cores".
 
@@ -23,7 +25,7 @@
 
 - [x]  9 - Crie um botão que, ao ser clicado, limpa o quadro preenchendo a cor de todos seus pixels com branco.
 
-** Bônus **
+## Bônus
 
 - [x]  10 - Faça o quadro de pixels ter seu tamanho definido pela pessoa usuária.
 
